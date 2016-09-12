@@ -1,0 +1,74 @@
+        <ion-content class="padding">
+           <ion-list>
+            <div>
+              <ion-item class="item-stable"
+              ng-click="toggleGroup('Apps Moviles')"
+              ng-class="{active: isGroupShown('Apps Moviles')}">
+              <i class="icon" ng-class="isGroupShown('Apps Moviles') ? 'ion-minus' : 'ion-plus'"></i>
+              Apps Moviles
+            </ion-item>
+          <ion-item class="item-accordion"
+          ng-show="isGroupShown(group)">
+
+          <div class="row responsive-sm" >
+
+              <div class="col square">
+              <button class="button-icon ion-information-circled custom-icon"></button>
+               <div class="content">
+                <button class="button button-assertive">
+                <img class="img" src="img/logo_uao2.png" />
+                UAO Movil
+                </button>
+                </div>
+              </div>
+
+              <div class="col square">
+               <div class="content">
+                <button class="button button-dark">
+                <img class="img" src="img/uao-logo.png" />
+                Horario Y Notas
+                </button>
+                </div>
+              </div>
+
+         </div>
+      </ion-item>
+  </div>
+
+
+  <div>
+              <ion-item class="item-stable"
+              ng-click="toggleGroup2('Apps Web')"
+              ng-class="{active: isGroupShown2('Apps Web')}">
+              <i class="icon" ng-class="isGroupShown2('Apps Web') ? 'ion-minus' : 'ion-plus'"></i>
+              Apps Web
+            </ion-item>
+          <ion-item class="item-accordion"
+          ng-show="isGroupShown2(group)">
+
+          <div class="row responsive-sm" >
+
+              <div class="col square">
+              <button class="button-icon ion-information-circled custom-icon"></button>
+               <div class="content">
+                <button class="button button-assertive">
+                <img class="img" src="img/logo_uao2.png" />
+                nombre aplicacion
+                </button>
+                </div>
+              </div>
+
+              <div class="col square">
+               <div class="content">
+                <button class="button button-dark">
+                <img class="img" src="img/uao-logo.png" />
+                nombre aplicacion
+                </button>
+                </div>
+              </div>
+
+         </div>
+      </ion-item>
+  </div>
+</ion-list>
+</ion-content>
