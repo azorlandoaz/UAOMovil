@@ -15,7 +15,7 @@ control.controller('apps', function($scope) {
       name: ""+i,
       items: []
     };
-    for (var j=0; j<1; j++) {
+    for (var j=0; j<3; j++) {
       $scope.groups[i].items.push(i + "-" + j);
     }
   };
@@ -35,17 +35,6 @@ control.controller('apps', function($scope) {
     }
   };
   $scope.isGroupShown = function(group) {
-    return $scope.shownGroup === "Apps Moviles";
-  };
-
-  $scope.toggleGroup2 = function(group) {
-    if ($scope.isGroupShown2(group)) {
-      $scope.shownGroup = null;
-    } else {
-      $scope.shownGroup = group;
-    }
-  };
-  $scope.isGroupShown2 = function(group) {
-    return $scope.shownGroup === "Apps Web";
+    return $scope.shownGroup === group;
   };
 });
