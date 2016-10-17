@@ -1,11 +1,10 @@
-        <ion-content class="padding">
+        <ion-content class="padding" on-swipe-right="goBack()" on-swipe-left="goForward()">
            <ion-list>
             <div ng-repeat="group in groups">
-              <ion-item class="item-stable"
-              ng-click="toggleGroup(group)"
-              ng-class="{active: isGroupShown(group)}">
-              <i class="icon" ng-class="isGroupShown(group) ? 'ion-minus' : 'ion-plus'"></i>
-              {{group.name}}
+              <ion-item class="item-stable" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+                {{group.name}}
+                <i class="icon deplegableIcon" ng-if="platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
+                <i class="icon deplegableIcon" ng-if="!platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
             </ion-item>
           <ion-item class="item-accordion"
           ng-repeat="item in group.items"

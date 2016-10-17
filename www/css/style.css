@@ -1,5 +1,24 @@
-/* Empty. Add your own CSS if you like */
 
+/* ajust the tabs for android */
+.tabs-striped .tab-item {
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+.tabs-striped .tab-item.tab-item-active, 
+.tabs-striped > .tabs
+{
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.tabshadow{
+      -webkit-box-shadow: 0 0px 0px -20px rgba(0,0,0,0.19  );
+	   -moz-box-shadow: 0 0px 0px -20px black;
+	        box-shadow: 0 8px 4px -6px rgba(0,0,0,0.18  );
+}
+/* ajust the zone inside the accordion list on the tabs "apps" */
  .img{
  border-radius: 100%;
   width: 50%;
@@ -38,12 +57,19 @@
   padding-left: 100%;
   padding-bottom: 1%;
 }
+/* ajust the accordion list in the tab "apps" */
+
+.deplegableIcon{
+  position: relative;
+  float: right;
+  font-size: 30px;
+}
 
 .list .item.item-accordion {
   line-height: 15px;
   padding-top: 0;
   padding-bottom: 0;
-  transition: 0.09s all linear;
+  transition: 0.1s all linear;
 }
 .list .item.item-accordion.ng-hide {
   line-height: 0px;
@@ -52,3 +78,4 @@
 .list .item.item-accordion.ng-hide-remove {
   display: block !important;
 }
+

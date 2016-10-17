@@ -1,14 +1,19 @@
  var control = angular.module('ionicApp', ['ionic']);
 
 control.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
-  $ionicConfigProvider.tabs.position('bottom');
-  console.log('HomeTabCtrl');
-
+ // $ionicConfigProvider.tabs.position('bottom');
   
 });
-control.controller('apps', function($scope) {
-  console.log('HomeTabCtrl');
 
+control.controller('apps', function($scope, $ionicTabsDelegate) {
+
+ /* if(ionic.Platform.isAndroid()){
+    $scope.platform = "Android";
+  }else{
+    $scope.platform = "IOS";
+  }*/
+$scope.platform = ionic.Platform;
+  console.log($scope.platform);
   $scope.groups = [];
   for (var i=0; i<2; i++) {
     $scope.groups[i] = {
@@ -37,4 +42,18 @@ control.controller('apps', function($scope) {
   $scope.isGroupShown = function(group) {
     return $scope.shownGroup === group;
   };
+
+   $scope.goForward = function () {
+        var selected = $ionicTabsDelegate.selectedIndex();
+        if (selected != -1) {
+            $ionicTabsDelegate.select(selected + 1);
+        }
+    }
+
+    $scope.goBack = function () {
+        var selected = $ionicTabsDelegate.selectedIndex();
+        if (selected != -1 && selected != 0) {
+            $ionicTabsDelegate.select(selected - 1);
+        }
+    }
 });
