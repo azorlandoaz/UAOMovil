@@ -5,15 +5,15 @@ control.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider
   
 });
 
-control.controller('apps', function($scope, $ionicTabsDelegate) {
+control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
 
- /* if(ionic.Platform.isAndroid()){
+  if(ionic.Platform.isAndroid()){
     $scope.platform = "Android";
   }else{
     $scope.platform = "IOS";
-  }*/
-$scope.platform = ionic.Platform;
-  console.log($scope.platform);
+  }
+  $scope.platform = ionic.Platform;
+  console.log($scope.platform.isIOS());
   $scope.groups = [];
   for (var i=0; i<2; i++) {
     $scope.groups[i] = {
@@ -56,4 +56,21 @@ $scope.platform = ionic.Platform;
             $ionicTabsDelegate.select(selected - 1);
         }
     }
+    
+     // A confirm dialog
+   
+   $scope.showConfirm = function() {
+     var confirmPopup = $ionicPopup.confirm({
+       title: 'Cerrar sesión',
+       template: '¿Estas seguro que desea cerrar sesión?'
+     });
+     confirmPopup.then(function(res) {
+       if(res) {
+         console.log('You are sure');
+       } else {
+         console.log('You are not sure');
+       }
+     });
+   }; 
+    
 });
