@@ -1,7 +1,7 @@
-        <ion-content class="padding" on-swipe-right="goBack()" on-swipe-left="goForward()">
+        <ion-content class="padding animated fadeIn" on-swipe-right="goBack()" on-swipe-left="goForward()">
            <ion-list>
             <div ng-repeat="group in groups">
-              <ion-item class="item-stable" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
+              <ion-item class="app-item ng-enter" ng-click="toggleGroup(group)" ng-class="{active: isGroupShown(group)}">
                 {{group.name}}
                 <i class="icon deplegableIcon" ng-if="platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
                 <i class="icon deplegableIcon" ng-if="!platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
@@ -10,24 +10,24 @@
           ng-repeat="item in group.items"
           ng-show="isGroupShown(group)">
 
-          <div class="row responsive-sm" >
+          <div class="row responsive-sd" >
 
-              <div class="col square">
+              <div class="col square responsive-sd">
               <button class="button-icon ion-information-circled custom-icon"></button>
                <div class="content">
-                <button class="button button-assertive">
-                <img class="img" src="../img/uao-logo.png" />
-                nombre aplicacion
+                <button class="button button-light">
+                <img class="img" src="../img/logo_uao2.png" />
+                aplicacion
                 </button>
                 </div>
               </div>
-
-              <div class="col square">
+              
+              <div class="col square responsive-sd">
               <button class="button-icon ion-information-circled custom-icon"></button>
                <div class="content">
-                <button class="button button-assertive">
+                <button class="button button-light">
                 <img class="img" src="../img/logo_uao2.png" />
-                nombre aplicacion
+                aplicacion
                 </button>
                 </div>
               </div>

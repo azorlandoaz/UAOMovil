@@ -21,10 +21,11 @@
 /* ajust the zone inside the accordion list on the tabs "apps" */
  .img{
  border-radius: 100%;
-  width: 50%;
-  margin-left: auto;
-    margin-right: auto;
+  width: 80%;
+  margin: 0 auto;
     display: block;
+   position: relative;
+   
 }
 
 .square {
@@ -34,7 +35,9 @@
     height: auto;
     margin:1.66%;
     overflow:hidden;
-    background-color:#ef473a;
+   /* background-color:#ef473a;*/
+   background-color:white;
+    border-radius: 10%;
 }
 
 .content {
@@ -46,18 +49,32 @@
 }
 
 .custom-icon {
-  font-size: 30px;
-  color : white;
+  font-size: 20px;
+  color : black;
   z-index: 10;
 }
 
 .button-icon{
-  position: relative;
-  float: right;
-  padding-left: 100%;
-  padding-bottom: 1%;
+  position: absolute;
+  float: left;
+  text-align:center;
+  padding: auto;
 }
 /* ajust the accordion list in the tab "apps" */
+.app-item.ng-enter {
+    -webkit-animation: fadeInLeft 1s;
+    animation: fadeInLeft 1s;
+}
+
+.app-item.ng-enter-stagger {
+  -webkit-animation-delay:200ms;
+  animation-delay:200ms;
+ 
+  /* override to make sure it's not inherited from other styles */
+  -webkit-animation-duration:0;
+  animation-duration:0;
+}
+
 
 .deplegableIcon{
   position: relative;

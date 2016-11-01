@@ -11,6 +11,7 @@
 
 	<link href="../lib/ionic/css/ionic.css" rel="stylesheet">
 	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/animate.css" rel="stylesheet">
 	<!--<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>-->
 	<!--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
 
@@ -45,16 +46,19 @@
 				<ion-view view-title="Noticias">
 					<div ng-include src="'news.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
 			<ion-tab title="APPS" icon="ion-android-apps" class="tabshadow">
 				<ion-view view-title="Noticias">
 					<div ng-include src="'apps.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
 			<ion-tab title="AJUSTES" icon="ion-android-settings" class="tabshadow">
 				<ion-view view-title="Noticias">
 					<div ng-include src="'ajust.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
 
 		</ion-tabs>
@@ -63,22 +67,27 @@
 	<!-- if the platform running isn't android -->
 	<div ng-if="!platform.isAndroid()">
 		<ion-tabs class="tabs-color-active-assertive tabs-icon-top fade-in-not-out">
-			<ion-tab title="NOTICIAS" icon="ion-ios-paper">
+			<ion-tab title="NOTICIAS" icon="ion-ios-paper" nav-transition="ios">
+				<ion-nav-view nav-transition="ios" nav-direction="forward">
 				<ion-view view-title="Noticias">
 					<div ng-include src="'news.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
 			<ion-tab title="APPS" icon="icon ion-grid">
+				<ion-nav-view nav-transition="ios" nav-direction="forward">
 				<ion-view view-title="Noticias">
 					<div ng-include src="'apps.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
 			<ion-tab title="AJUSTES" icon="ion-ios-gear">
+				<ion-nav-view nav-transition="ios" nav-direction="forward">
 				<ion-view view-title="Noticias">
 					<div ng-include src="'ajust.html'"></div>
 				</ion-view>
+				</ion-nav-view>
 			</ion-tab>
-
 		</ion-tabs>
 	</div>
 
