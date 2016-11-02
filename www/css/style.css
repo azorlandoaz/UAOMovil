@@ -55,8 +55,8 @@
 }
 
 .button-icon{
-  position: absolute;
-  float: left;
+  position: relative;
+  float: right;
   text-align:center;
   padding: auto;
 }

@@ -11,6 +11,7 @@
 
   <link href="lib/ionic/css/ionic.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/animate.css" rel="stylesheet">
   <!--<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>-->
   <!--<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">-->
       <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
@@ -27,11 +28,11 @@
     <script src="js/login.js"></script>
   </head>
 
-  <body ng-controller = "PopupCtrl">
+  <body ng-controller = "PopupCtrl" class="animated fadeIn">
 <br>
-<div class="row row-top">
-<div class="col col-80 col-offset-10">
-    <img src="img/uao_logo5-02.png">
+<div class="row row-top animated fadeInDown">
+<div class="col col-50 col-offset-20">
+    <img src="img/uao.png">
   </div>
 </div>
 
@@ -40,22 +41,22 @@
 <br>
 <br>
 <br>
-<br>
+
 
     <div class="list padding">
-      <label class="item item-input item-floating-label">
+      <label class="item item-input item-floating-label animated fadeInUp">
         <span class="input-label">Usuario</span>
         <input type="text" placeholder="Usuario">
       </label>
-      <label class="item item-input item-floating-label">
+      <label class="item item-input item-floating-label animated fadeInUp">
         <span class="input-label">Contraseña</span>
         <input type="password" placeholder="Contraseña">
       </label>
 
-      <a href="views/main.html" class="button button-full button-assertive" >
+      <a href="views/main.html" class="button button-full button-assertive animated fadeInUp" >
   Ingresar
 </a>
-<a class="button icon-left ion-information-circled button-clear button-assertive" ng-click="showAlert()">¿No puedes ingresar?</a>
+<a class="button icon-left ion-information-circled button-clear button-assertive animated fadeIn" ng-click="showAlert()">¿No puedes ingresar?</a>
     </div>
 
 

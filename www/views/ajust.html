@@ -1,7 +1,7 @@
 <ion-view title="Ajustes">
 
         <ion-pane>
-        <ion-content on-swipe-right="goBack()" on-swipe-left="goForward()" class="animated fadeIn">
+        <ion-content on-swipe-right="goBack()" on-swipe-left="goForward()">
     
       
     <div class="list card">
@@ -14,7 +14,7 @@
 
   <a class="item item-icon-left positive" href="#">
     <i class="icon ion-document-text"></i>
-    Noticias
+    Filtro noticias
   </a>
         
         <ul class="list">
@@ -80,9 +80,9 @@
             
 </ul>
 
-  <div class="item item-avatar">
+  <div class="item item-avatar" ng-click="showConfirm()">
     <img src="../img/close-round.png">
-    <h2 class="assertive">Cerrar sesión</h2>
+    <h2 class="assertive" >Cerrar sesión</h2>
       <p>Tener en cuenta que se cerrara la sesión </p>
          <p>en todos los dispositivos.</p> 
   </div>

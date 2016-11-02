@@ -13,16 +13,20 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
     $scope.platform = "IOS";
   }
   $scope.platform = ionic.Platform;
-  console.log($scope.platform.isIOS());
   $scope.groups = [];
   for (var i=0; i<2; i++) {
     $scope.groups[i] = {
-      name: ""+i,
-      items: []
+      name: "",
+      items: [[{app:"Notas y Horario",
+               logoSRC:"../img/NYHLogo.png",
+               ID:1},
+              {app:"Campus Sostenible",
+               logoSRC:"../img/CSLogo.png",
+               ID:2}]]
     };
-    for (var j=0; j<3; j++) {
+    /*for (var j=0; j<3; j++) {
       $scope.groups[i].items.push(i + "-" + j);
-    }
+    }*/
   };
 
   $scope.groups[0].name = "Apps Moviles";
@@ -67,6 +71,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
      confirmPopup.then(function(res) {
        if(res) {
          console.log('You are sure');
+         location.assign("../index.html")
        } else {
          console.log('You are not sure');
        }
