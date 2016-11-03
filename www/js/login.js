@@ -1,59 +1,28 @@
-angular.module('ionicApp', ['ionic'])
-.controller('PopupCtrl',function($scope, $ionicPopup, $timeout) {
+ var log = angular.module('ionicApp', ['ionic'])
 
- // Triggered on a button click, or some other target
- $scope.showPopup = function() {
-   $scope.data = {}
+.directive('focusMe', function($timeout) {
+  return {
+    link: function(scope, element, attrs) {
 
-   // An elaborate, custom popup
-   var myPopup = $ionicPopup.show({
-     template: '<input type="password" ng-model="data.wifi">',
-     title: 'Enter Wi-Fi Password',
-     subTitle: 'Please use normal things',
-     scope: $scope,
-     buttons: [
-       { text: 'Cancel' },
-       {
-         text: '<b>Save</b>',
-         type: 'button-positive',
-         onTap: function(e) {
-           if (!$scope.data.wifi) {
-             //don't allow the user to close unless he enters wifi password
-             e.preventDefault();
-           } else {
-             return $scope.data.wifi;
-           }
-         }
-       },
-     ]
-   });
-   myPopup.then(function(res) {
-     console.log('Tapped!', res);
-   });
-   $timeout(function() {
-      myPopup.close(); //close the popup after 3 seconds for some reason
-   }, 3000);
+      $timeout(function() {
+        element[0].focus(); 
+      });
+    }
   };
-   // A confirm dialog
-   $scope.showConfirm = function() {
-     var confirmPopup = $ionicPopup.confirm({
-       title: 'Consume Ice Cream',
-       template: 'Are you sure you want to eat this ice cream?'
-     });
-     confirmPopup.then(function(res) {
-       if(res) {
-         console.log('You are sure');
-       } else {
-         console.log('You are not sure');
-       }
-     });
-   };
+});
+
+log.controller('PopupCtrl',function($scope, $ionicPopup, $timeout, $ionicLoading, $ionicScrollDelegate) {
+
+  $scope.logIn = function(){
+         location.assign("views/main.html");
+  }
+
 
    // An alert dialog
    $scope.showAlert = function() {
      var alertPopup = $ionicPopup.alert({
        title: 'Para recuperar tu contraseña',
-       template: 'Debes hacerlo desde el portal estudiantil'
+       template: 'Debes hacerlo desde el portal estudiantil<br><br>Recuerda que el usuario y la contraseña son los institucionales '
      });
     
    };

@@ -1,11 +1,11 @@
  var control = angular.module('ionicApp', ['ionic']);
 
-control.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+/*control.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
  // $ionicConfigProvider.tabs.position('bottom');
   
-});
+});*/
 
-control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
+control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $ionicLoading) {
 
   if(ionic.Platform.isAndroid()){
     $scope.platform = "Android";
@@ -15,7 +15,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
   $scope.platform = ionic.Platform;
   $scope.groups = [];
   for (var i=0; i<2; i++) {
-    $scope.groups[i] = {
+    $scope.groups[0] = {
       name: "",
       items: [[{app:"Notas y Horario",
                logoSRC:"../img/NYHLogo.png",
@@ -23,6 +23,27 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
               {app:"Campus Sostenible",
                logoSRC:"../img/CSLogo.png",
                ID:2}]]
+    };
+    $scope.groups[1] = {
+      name: "",
+      items: [[{app:"Portal UAO",
+               logoSRC:"../img/PortalUAOLogo.png",
+               ID:1},
+              {app:"Moodle - Augusta",
+               logoSRC:"../img/AugustaLogo.png",
+               ID:2}],
+             [{app:"Moodle - Siga",
+               logoSRC:"../img/SigaLogo.png",
+               ID:3},
+              {app:"Correo",
+               logoSRC:"../img/CorreoLogo.png",
+               ID:4}],
+             [{app:"UAO Semana",
+               logoSRC:"../img/UAOSemanaLogo.png",
+               ID:5},
+              {app:"Biblioteca",
+               logoSRC:"../img/BibliotecaLogo.png",
+               ID:6}]]
     };
     /*for (var j=0; j<3; j++) {
       $scope.groups[i].items.push(i + "-" + j);
@@ -32,6 +53,12 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
   $scope.groups[0].name = "Apps Moviles";
   $scope.groups[1].name = "Apps Web";
   
+  $scope.$on("$ionicView.loaded", function(event, data){
+    console.log("State Params:");
+   $ionicLoading.show();
+   console.log("State Params: ", data.stateParams);
+});
+
   /*
    * if given group is the selected group, deselect it
    * else, select the given group
@@ -70,7 +97,6 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup) {
      });
      confirmPopup.then(function(res) {
        if(res) {
-         console.log('You are sure');
          location.assign("../index.html")
        } else {
          console.log('You are not sure');
