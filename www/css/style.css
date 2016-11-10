@@ -28,6 +28,12 @@
    
 }
 
+.img.fit{
+  margin: auto;
+  display: block;
+   
+}
+
 .square {
     float:left;
     position: relative;
