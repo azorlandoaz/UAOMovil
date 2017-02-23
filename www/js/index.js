@@ -5,7 +5,7 @@
   
 });*/
 
-control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $ionicLoading) {
+control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $ionicLoading, $ionicPopover) {
 
   if(ionic.Platform.isAndroid()){
     $scope.platform = "Android";
@@ -103,5 +103,23 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
        }
      });
    }; 
+
+
+
+   // Display Popover
+        $scope.openPopover = function($event, templateName) {
+            // Init popover on load
+            $ionicPopover.fromTemplateUrl('templates/'+templateName, {
+                scope: $scope,
+            }).then(function(popover) {
+                $scope.popover = popover;
+                $scope.popover.show($event);
+            });
+        };
+
+        $scope.closePopover = function() {
+            $scope.popover.hide();
+        };
+
     
 });

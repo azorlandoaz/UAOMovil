@@ -13,7 +13,7 @@
           <div class="row responsive-sd" ng-if="(item.ID)%2 != 0">
 
               <div class="col square responsive-sd">
-              <button class="button-icon ion-information-circled custom-icon"></button>
+              <button class="button-icon ion-information-circled custom-icon"  ng-click="openPopover($event,'app.html')"></button>
                <div class="content">
                 <button class="button button-light">
                 <img class="img" src="../img/logo_uao2.png" />
@@ -22,7 +22,7 @@
                 </div>
               </div>
               <div class="col square responsive-sd">
-              <button class="button-icon ion-information-circled custom-icon"></button>
+              <button class="button-icon ion-information-circled custom-icon"  ng-click="openPopover($event,'web.html')"></button>
                <div class="content">
                 <button class="button button-light">
                 <img class="img" src="../img/logo_uao2.png" />
@@ -30,6 +30,8 @@
                 </button>
                 </div>
               </div>
+
+      
 
          </div>
          
