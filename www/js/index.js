@@ -5,15 +5,20 @@
   
 });*/
 
-control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $ionicLoading, $ionicPopover) {
+control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $ionicLoading, $ionicPopover, $http) {
 
   if(ionic.Platform.isAndroid()){
     $scope.platform = "Android";
   }else{
     $scope.platform = "IOS";
   }
+  
   $scope.platform = ionic.Platform;
   $scope.groups = [];
+  var ip = "52.39.250.182";
+  var port = 8181;
+  var URL = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
+
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
       name: "",
@@ -52,6 +57,13 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 
   $scope.groups[0].name = "Apps Moviles";
   $scope.groups[1].name = "Apps Web";
+
+  $http.get(URL).then(function(resp){
+		console.log('Success', resp);
+    
+	}, function(err){
+		console.error('ERR', err);
+	})
   
   $scope.$on("$ionicView.loaded", function(event, data){
     console.log("State Params:");
