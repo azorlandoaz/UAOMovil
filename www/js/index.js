@@ -15,6 +15,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   
   $scope.platform = ionic.Platform;
   $scope.groups = [];
+  $scope.columnBreak = 2;
   var ip = "52.39.250.182";
   var port = 8181;
   var URL = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
@@ -22,33 +23,11 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
       name: "",
-      items: [[{app:"Notas y Horario",
-               logoSRC:"../img/NYHLogo.png",
-               ID:1},
-              {app:"Campus Sostenible",
-               logoSRC:"../img/CSLogo.png",
-               ID:2}]]
+      items: []
     };
     $scope.groups[1] = {
       name: "",
-      items: [[{app:"Portal UAO",
-               logoSRC:"../img/PortalUAOLogo.png",
-               ID:1},
-              {app:"Moodle - Augusta",
-               logoSRC:"../img/AugustaLogo.png",
-               ID:2}],
-             [{app:"Moodle - Siga",
-               logoSRC:"../img/SigaLogo.png",
-               ID:3},
-              {app:"Correo",
-               logoSRC:"../img/CorreoLogo.png",
-               ID:4}],
-             [{app:"UAO Semana",
-               logoSRC:"../img/UAOSemanaLogo.png",
-               ID:5},
-              {app:"Biblioteca",
-               logoSRC:"../img/BibliotecaLogo.png",
-               ID:6}]]
+      items: []
     };
     /*for (var j=0; j<3; j++) {
       $scope.groups[i].items.push(i + "-" + j);
@@ -57,9 +36,19 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 
   $scope.groups[0].name = "Apps Moviles";
   $scope.groups[1].name = "Apps Web";
-
+  //var i = 0;
   $http.get(URL).then(function(resp){
-		console.log('Success', resp);
+		//console.log('Success', resp);
+    var type = " ";
+    for(i=0;i<=resp.data.aplications.length;i++){
+      console.log(resp.data.aplications);
+      type = resp.data.aplications[i].type;
+      if(angular.equals(type,"WEB")){
+        $scope.groups[1].items.push(resp.data.aplications[i]);
+      }else{
+        $scope.groups[0].items.push(resp.data.aplications[i]);
+      }
+    }
     
 	}, function(err){
 		console.error('ERR', err);
@@ -133,5 +122,8 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
             $scope.popover.hide();
         };
 
+      $scope.startNewRow = function (index, count) {
+         return ((index) % count) === 0;
+      };
     
 });

@@ -6,18 +6,18 @@
                 <i class="icon deplegableIcon" ng-if="platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-android-arrow-dropdown' : 'ion-android-arrow-dropright'"></i>
                 <i class="icon deplegableIcon" ng-if="!platform.isAndroid()" ng-class="isGroupShown(group) ? 'ion-ios-arrow-down' : 'ion-ios-arrow-right'"></i>
             </ion-item>
-          <div ng-repeat="item in group.items"
+          <div ng-repeat="item in group.items.slice(index,5)"
           ng-show="isGroupShown(group)">
 
           
-          <div class="row responsive-sd" ng-if="(item.ID)%2 != 0">
+          <div class="row responsive-sd">
 
               <div class="col square responsive-sd">
               <button class="button-icon ion-information-circled custom-icon"  ng-click="openPopover($event,'app.html')"></button>
                <div class="content">
                 <button class="button button-light">
                 <img class="img" src="../img/logo_uao2.png" />
-                {{item[0].app}}
+                {{item.name}}
                 </button>
                 </div>
               </div>
@@ -26,7 +26,7 @@
                <div class="content">
                 <button class="button button-light">
                 <img class="img" src="../img/logo_uao2.png" />
-                {{item[1].app}}
+                {{item.name}}
                 </button>
                 </div>
               </div>
