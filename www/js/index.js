@@ -23,11 +23,11 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
       name: "",
-      items: []
+      items: [[],[],[],[]]
     };
     $scope.groups[1] = {
       name: "",
-      items: []
+      items: [[],[],[],[]]
     };
     /*for (var j=0; j<3; j++) {
       $scope.groups[i].items.push(i + "-" + j);
@@ -40,15 +40,38 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   $http.get(URL).then(function(resp){
 		//console.log('Success', resp);
     var type = " ";
+    var j = 0;
+    var l = 0;
+    var k = 1;
+    var h = 1;
     for(i=0;i<=resp.data.aplications.length;i++){
-      console.log(resp.data.aplications);
+      
+      console.log($scope.groups[1]);
+      
       type = resp.data.aplications[i].type;
       if(angular.equals(type,"WEB")){
-        $scope.groups[1].items.push(resp.data.aplications[i]);
-      }else{
-        $scope.groups[0].items.push(resp.data.aplications[i]);
+        if(k<=2){
+          $scope.groups[1].items[j].push(resp.data.aplications[i]);
+        }
+        if(k>2){
+          if(k == 3){j++;console.log(k);}
+          $scope.groups[1].items[j].push(resp.data.aplications[i]);
+          if(k%2 == 0){j++;console.log(k);}
+        }
+        k++;
+    }else if(angular.equals(type,"APP")){
+       if(h<=2){
+          $scope.groups[0].items[l].push(resp.data.aplications[i]);
+        }else if(h>2){
+          if(h == 3){l++;console.log(l);}
+          $scope.groups[0].items[l].push(resp.data.aplications[i]);
+          if(h%2 == 0){l++;}
+        }
+        h++;
       }
+      
     }
+    
     
 	}, function(err){
 		console.error('ERR', err);
@@ -108,13 +131,20 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 
 
    // Display Popover
-        $scope.openPopover = function($event, templateName) {
+        $scope.openPopover = function($event, templateName, description, logo, linkWeb, linkAndroid, linkIOS, name) {
             // Init popover on load
             $ionicPopover.fromTemplateUrl('templates/'+templateName, {
                 scope: $scope,
-            }).then(function(popover) {
+            }).then(function(popover, desc, log, linkW, linkA, linkI, nombre) {
                 $scope.popover = popover;
+                $scope.passing= {'desc':description,
+                                 'log':logo,
+                                 'linkW':linkWeb,
+                                 'linkA':linkAndroid,
+                                 'linkI':linkIOS,
+                                 'nombre':name};
                 $scope.popover.show($event);
+                
             });
         };
 

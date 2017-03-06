@@ -1,7 +1,7 @@
-  <style>.popover { height:400px; width:95%; }</style>
+  <style>.popover { height:80%; width:95%; top:1px; position:fixed;}</style>
   <ion-popover-view class="animated fadeInLeft">
     <ion-header-bar>
-      <h1 class="title">UAO Movil</h1>
+      <h1 class="title">{{passing.nombre}}</h1>
 
         <div class="buttons" ng-click="popover.hide()">
     <a class="button button-icon icon ion-close-round"  ></a>
@@ -9,17 +9,17 @@
     </ion-header-bar>
     
     <ion-content scroll="false" class="padding" style="height: 500px">
- <img class="img.fit" src="../img/logo_uao2.png" width="50%" height="auto" />
-
+ <img class="img.fit" data-ng-src="data:image/png;base64,{{passing.log}}" width="50%" height="auto" />
  <h4>Descripción:</h4>
 
- <p>Aquí se hablaria de la funcion principal de la aplicación</p>
+ <p> {{passing.desc}}  </p>
 
  <h4>Descargalo en:</h4>
 
-<img class="img.fit" src="../img/android.png" width="45%" height="auto" />
+  <a href="{{passing.linkW}}">{{passing.linkW}}</a>
+<img class="img.fit" src="../img/android.png" width="45%" height="auto">  </img>
 <img width="7%" />
-<img class="img.fit" src="../img/mac_os.png" width="45%" height="auto" />
+<img class="img.fit" src="../img/mac_os.png" width="45%" height="auto" ></img>
 
     </ion-content>
   </ion-popover-view>
