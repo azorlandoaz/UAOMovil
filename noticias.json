@@ -1,0 +1,1050 @@
+[
+    {
+        "id": 28256,
+        "date": "2017-03-13T11:39:21",
+        "date_gmt": "2017-03-13T16:39:21",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28256"
+        },
+        "modified": "2017-03-13T12:06:20",
+        "modified_gmt": "2017-03-13T17:06:20",
+        "slug": "la-variacion-las-tasa-interes",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/la-variacion-las-tasa-interes\/",
+        "title": {
+            "rendered": "\u00bfPor qu\u00e9 la variaci\u00f3n en las tasa de inter\u00e9s?"
+        },
+        "content": {
+            "rendered": "<p>El #ExpertoAut\u00f3nomo Guillermo Aponte Bello, de la facultad de Ciencias Econ\u00f3micas y Administrativas, explica c\u00f3mo y por qu\u00e9 afecta la variaci\u00f3n en las tasas de inter\u00e9s, decretadas por el Banco de la Rep\u00fablica de Colombia.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>El #ExpertoAut\u00f3nomo Guillermo Aponte Bello, de la facultad de Ciencias Econ\u00f3micas y Administrativas, explica c\u00f3mo y por qu\u00e9 afecta la variaci\u00f3n en las tasas de inter\u00e9s, decretadas por el Banco de la Rep\u00fablica de Colombia.<\/p>\n",
+            "protected": false
+        },
+        "author": 25,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            17
+        ],
+        "tags": [
+            457,
+            572,
+            100,
+            232,
+            156
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28256"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/25"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28256"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28256\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28256"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28256"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28256"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28251,
+        "date": "2017-03-13T11:01:10",
+        "date_gmt": "2017-03-13T16:01:10",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28251"
+        },
+        "modified": "2017-03-13T11:01:10",
+        "modified_gmt": "2017-03-13T16:01:10",
+        "slug": "jornada-integracion-ingenieros-electricos",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/jornada-integracion-ingenieros-electricos\/",
+        "title": {
+            "rendered": "\u00a1Jornada de integraci\u00f3n para ingenieros el\u00e9ctricos!"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">El programa de Ingenier\u00eda El\u00e9ctrica, te invita a la jornada de integraci\u00f3n del programa, que ser\u00e1 el pr\u00f3ximo s\u00e1bado 18 de marzo. Para participar de este evento, s\u00f3lo debes inscribirte hasta el mi\u00e9rcoles 15 de marzo en la facultad de Ingenier\u00eda. Recuerda que los cupos de asistencia son limitados. Informes: Rosaura del Pilar Castrill\u00f3n, ext. 11325.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>El programa de Ingenier\u00eda El\u00e9ctrica, te invita a la jornada de integraci\u00f3n del programa, que ser\u00e1 el pr\u00f3ximo s\u00e1bado 18 de marzo. Para participar de este evento, s\u00f3lo debes inscribirte hasta el mi\u00e9rcoles 15 de marzo en la facultad de Ingenier\u00eda. Recuerda que los cupos de asistencia son limitados. Informes: Rosaura del Pilar Castrill\u00f3n, ext. [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            581,
+            325,
+            159,
+            576,
+            668,
+            641,
+            656,
+            156
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28251"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28251"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28251\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28251"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28251"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28251"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28249,
+        "date": "2017-03-13T11:00:51",
+        "date_gmt": "2017-03-13T16:00:51",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28249"
+        },
+        "modified": "2017-03-13T11:00:51",
+        "modified_gmt": "2017-03-13T16:00:51",
+        "slug": "muevete-al-ritmo-urbano",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/muevete-al-ritmo-urbano\/",
+        "title": {
+            "rendered": "Mu\u00e9vete al ritmo urbano"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">Si lo tuyo son los movimientos acrob\u00e1ticos de alta complejidad, el grupo de baile urbano es para ti. \u00danete al \u2018parche\u2019 los martes y mi\u00e9rcoles de 2:00 p.m. a 4:00 p.m., y d\u00e9jate llevar por el hip hop. Informes: Bienestar Universitario, ext. 13011.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Si lo tuyo son los movimientos acrob\u00e1ticos de alta complejidad, el grupo de baile urbano es para ti. \u00danete al \u2018parche\u2019 los martes y mi\u00e9rcoles de 2:00 p.m. a 4:00 p.m., y d\u00e9jate llevar por el hip hop. Informes: Bienestar Universitario, ext. 13011.<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            138,
+            657,
+            187,
+            156,
+            675,
+            658
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28249"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28249"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28249\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28249"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28249"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28249"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28247,
+        "date": "2017-03-13T11:00:27",
+        "date_gmt": "2017-03-13T16:00:27",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28247"
+        },
+        "modified": "2017-03-13T11:00:27",
+        "modified_gmt": "2017-03-13T16:00:27",
+        "slug": "te-preocupan-las-problematicas-region",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/te-preocupan-las-problematicas-region\/",
+        "title": {
+            "rendered": "\u00bfTe preocupan las problem\u00e1ticas de tu regi\u00f3n?"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">El grupo estudiantil de econ\u00f3mica Regional \u2018GER\u2019 busca fomentar espacios de participaci\u00f3n y te invita a hacer parte de la discusi\u00f3n. Ac\u00e9rcate al tercer piso del Edificio de Bienestar Universitario, al departamento de Desarrollo Humano e int\u00e9grate. Informes: Bienestar Universitario, ext. 13039.<\/span><\/p>\n<p>&nbsp;<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>El grupo estudiantil de econ\u00f3mica Regional \u2018GER\u2019 busca fomentar espacios de participaci\u00f3n y te invita a hacer parte de la discusi\u00f3n. Ac\u00e9rcate al tercer piso del Edificio de Bienestar Universitario, al departamento de Desarrollo Humano e int\u00e9grate. Informes: Bienestar Universitario, ext. 13039. &nbsp;<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            138,
+            187,
+            354,
+            335,
+            805,
+            641,
+            699,
+            156,
+            675
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28247"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28247"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28247\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28247"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28247"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28247"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28245,
+        "date": "2017-03-13T11:00:06",
+        "date_gmt": "2017-03-13T16:00:06",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28245"
+        },
+        "modified": "2017-03-13T11:00:06",
+        "modified_gmt": "2017-03-13T16:00:06",
+        "slug": "te-atrae-la-publicidad-internacional",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/te-atrae-la-publicidad-internacional\/",
+        "title": {
+            "rendered": "\u00bfTe atrae la publicidad internacional?"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">Si te interesa trabajar con agencias publicitarias en otros pa\u00edses, el grupo estudiantil \u2018Brand Book\u2019 te invita a que asistas al conversatorio \u2018S\u00ed hay Agencia\u2019. El conversatorio es este martes 14 de marzo, a las 12:00 m., en Aulas 3 Torre\u00f3n 1. Informes: Bienestar Universitario, ext. 13039.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Si te interesa trabajar con agencias publicitarias en otros pa\u00edses, el grupo estudiantil \u2018Brand Book\u2019 te invita a que asistas al conversatorio \u2018S\u00ed hay Agencia\u2019. El conversatorio es este martes 14 de marzo, a las 12:00 m., en Aulas 3 Torre\u00f3n 1. Informes: Bienestar Universitario, ext. 13039.<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            138,
+            187,
+            722,
+            677,
+            805,
+            1066,
+            647,
+            156,
+            675
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28245"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28245"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28245\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28245"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28245"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28245"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28243,
+        "date": "2017-03-13T10:59:47",
+        "date_gmt": "2017-03-13T15:59:47",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28243"
+        },
+        "modified": "2017-03-13T10:59:47",
+        "modified_gmt": "2017-03-13T15:59:47",
+        "slug": "conoce-los-terminos-negociacion-internacional",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/conoce-los-terminos-negociacion-internacional\/",
+        "title": {
+            "rendered": "Conoce los t\u00e9rminos de negociaci\u00f3n internacional"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">Para establecer responsabilidades y disminuir los riesgos en el proceso de una negociaci\u00f3n de compra y venta internacional, debe existir un correcto uso y aplicaci\u00f3n de los t\u00e9rminos Incoterms. \u00a0Aprende sobre ellos en el seminario T\u00e9rminos de Negociaci\u00f3n Internacional en la Direcci\u00f3n de Extensi\u00f3n, y s\u00e9 un experto en los negocios globales. Informes: Direcci\u00f3n de Extensi\u00f3n, ext. 14118 y 14121, correo: <\/span><a href=\"mailto:extension@uao.edu.co\"><span style=\"font-weight: 400;\">extension@uao.edu.co<\/span><\/a><span style=\"font-weight: 400;\">.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Para establecer responsabilidades y disminuir los riesgos en el proceso de una negociaci\u00f3n de compra y venta internacional, debe existir un correcto uso y aplicaci\u00f3n de los t\u00e9rminos Incoterms. \u00a0Aprende sobre ellos en el seminario T\u00e9rminos de Negociaci\u00f3n Internacional en la Direcci\u00f3n de Extensi\u00f3n, y s\u00e9 un experto en los negocios globales. Informes: Direcci\u00f3n de [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            617,
+            170,
+            129,
+            204,
+            156,
+            988
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28243"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28243"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28243\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28243"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28243"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28243"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28241,
+        "date": "2017-03-13T10:59:23",
+        "date_gmt": "2017-03-13T15:59:23",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28241"
+        },
+        "modified": "2017-03-13T10:59:23",
+        "modified_gmt": "2017-03-13T15:59:23",
+        "slug": "ayudate-las-monitorias",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/ayudate-las-monitorias\/",
+        "title": {
+            "rendered": "Ay\u00fadate con las monitor\u00edas"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">\u00bfTienes dificultades con la asignatura \u2018Investigaci\u00f3n de operaciones\u2019? el Centro para la Excelencia Acad\u00e9mica te ofrece monitor\u00edas los martes y viernes de 10:00 a.m. a 12:00 m. para que aclares tus inquietudes. Informes: Bienestar Universitario, ext.13070.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>\u00bfTienes dificultades con la asignatura \u2018Investigaci\u00f3n de operaciones\u2019? el Centro para la Excelencia Acad\u00e9mica te ofrece monitor\u00edas los martes y viernes de 10:00 a.m. a 12:00 m. para que aclares tus inquietudes. Informes: Bienestar Universitario, ext.13070.<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            332,
+            138,
+            187,
+            1067,
+            584,
+            792,
+            334,
+            156,
+            675
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28241"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28241"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28241\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28241"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28241"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28241"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28239,
+        "date": "2017-03-13T10:57:55",
+        "date_gmt": "2017-03-13T15:57:55",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28239"
+        },
+        "modified": "2017-03-13T10:57:55",
+        "modified_gmt": "2017-03-13T15:57:55",
+        "slug": "ahora-las-asesorias-podran-virtuales",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/ahora-las-asesorias-podran-virtuales\/",
+        "title": {
+            "rendered": "Ahora las asesor\u00edas podr\u00e1n ser virtuales"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">El Centro de Lectura y Escritura, CELEE, tiene un nuevo servicio para ti. Las tutor\u00edas ahora pueden ser virtuales. Pide tu cita por la p\u00e1gina y en las observaciones precisa que ser\u00e1 virtual. Despu\u00e9s, ingresa a tu correo institucional y diez minutos antes de la cita, confirma la conexi\u00f3n para garantizar tu asesor\u00eda. Ag\u00e9ndate escribiendo a <\/span><span style=\"font-weight: 400;\">celee@uao.edu.co<\/span><span style=\"font-weight: 400;\">. <\/span><span style=\"font-weight: 400;\">Consulta m\u00e1s informaci\u00f3n en<\/span><a href=\"http:\/\/www.uao.edu.co\/celee\"> <span style=\"font-weight: 400;\">www.uao.edu.co\/celee<\/span><\/a><span style=\"font-weight: 400;\">.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>El Centro de Lectura y Escritura, CELEE, tiene un nuevo servicio para ti. Las tutor\u00edas ahora pueden ser virtuales. Pide tu cita por la p\u00e1gina y en las observaciones precisa que ser\u00e1 virtual. Despu\u00e9s, ingresa a tu correo institucional y diez minutos antes de la cita, confirma la conexi\u00f3n para garantizar tu asesor\u00eda. Ag\u00e9ndate escribiendo [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            687,
+            1007,
+            722,
+            430,
+            671,
+            989,
+            156,
+            988
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28239"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28239"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28239\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28239"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28239"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28239"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28236,
+        "date": "2017-03-13T10:57:31",
+        "date_gmt": "2017-03-13T15:57:31",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28236"
+        },
+        "modified": "2017-03-13T10:57:31",
+        "modified_gmt": "2017-03-13T15:57:31",
+        "slug": "participa-curso-excel-virtual",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/participa-curso-excel-virtual\/",
+        "title": {
+            "rendered": "Participa en el Curso de Excel virtual"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">Excel es una herramienta que te permite desarrollar diferentes actividades de forma \u00e1gil. Est\u00e1 al alcance de todos, pero tal vez no conozcas las innumerables ventajas que el programa ofrece. Participa en el Curso de Excel virtual que ofrece Direcci\u00f3n de Extensi\u00f3n y mejora tu productividad. Informes: exts. 14112, 14113 y 14151, correo: <\/span><a href=\"mailto:extension@uao.edu.co\"><span style=\"font-weight: 400;\">extension@uao.edu.co<\/span><\/a><span style=\"font-weight: 400;\">.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Excel es una herramienta que te permite desarrollar diferentes actividades de forma \u00e1gil. Est\u00e1 al alcance de todos, pero tal vez no conozcas las innumerables ventajas que el programa ofrece. Participa en el Curso de Excel virtual que ofrece Direcci\u00f3n de Extensi\u00f3n y mejora tu productividad. Informes: exts. 14112, 14113 y 14151, correo: extension@uao.edu.co.<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            1015
+        ],
+        "tags": [
+            170,
+            637,
+            641,
+            125,
+            156,
+            988
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28236"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28236"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28236\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28236"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28236"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28236"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 28234,
+        "date": "2017-03-13T10:56:25",
+        "date_gmt": "2017-03-13T15:56:25",
+        "guid": {
+            "rendered": "http:\/\/louaodelasemana.uao.edu.co\/?p=28234"
+        },
+        "modified": "2017-03-13T10:56:25",
+        "modified_gmt": "2017-03-13T15:56:25",
+        "slug": "participa-ponente-la-3-encuentro-investigadores-ruav",
+        "status": "publish",
+        "type": "post",
+        "link": "http:\/\/louaodelasemana.uao.edu.co\/participa-ponente-la-3-encuentro-investigadores-ruav\/",
+        "title": {
+            "rendered": "Participa como ponente en la 3 Encuentro de Investigadores RUAV"
+        },
+        "content": {
+            "rendered": "<p><span style=\"font-weight: 400;\">La Direcci\u00f3n de Investigaciones y Desarrollo Tecnol\u00f3gico te invita a participar de la convocatoria de ponencias para el 3 Encuentro de Investigadores RUAV, a realizarse el jueves 27 de abril en la Universidad Cooperativa de Colombia sede Cali. La fecha l\u00edmite para presentar el texto completo de la ponencia es este viernes 17 de marzo. Consulta la convocatoria ingresando a:<\/span><a href=\"http:\/\/www.ruav.edu.co\/\"> <span style=\"font-weight: 400;\">www.ruav.edu.co\/<\/span><\/a><span style=\"font-weight: 400;\">. Informes: RUAV, PBX: 316 9737.<\/span><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>La Direcci\u00f3n de Investigaciones y Desarrollo Tecnol\u00f3gico te invita a participar de la convocatoria de ponencias para el 3 Encuentro de Investigadores RUAV, a realizarse el jueves 27 de abril en la Universidad Cooperativa de Colombia sede Cali. La fecha l\u00edmite para presentar el texto completo de la ponencia es este viernes 17 de marzo. [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 21,
+        "featured_media": 0,
+        "comment_status": "open",
+        "ping_status": "closed",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": [],
+        "categories": [
+            16,
+            11
+        ],
+        "tags": [
+            305,
+            100,
+            673,
+            335,
+            812,
+            202,
+            1066,
+            641,
+            656,
+            533,
+            156,
+            343
+        ],
+        "_links": {
+            "self": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28234"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/users\/21"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/comments?post=28234"
+                }
+            ],
+            "version-history": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/posts\/28234\/revisions"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/media?parent=28234"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/categories?post=28234"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "http:\/\/louaodelasemana.uao.edu.co\/wp-json\/wp\/v2\/tags?post=28234"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

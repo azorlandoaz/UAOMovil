@@ -16,7 +16,7 @@
               <button class="button-icon ion-information-circled custom-icon"  ng-click="openPopover($event,'app.html', item[0].description, item[0].logo, item[0].linkWeb, item[0].linkAndroid, item[0].linkIOS, item[0].name)"
               ng-if="item[0].name"></button>
                <div class="content">
-                <button class="button button-light" ng-if="item[0].name">
+                <button class="button button-light" ng-if="item[0].name" ng-click="openLink(item[0].linkWeb)">
                 <img class="img" data-ng-src="data:image/png;base64,{{item[0].logo}}" ng-if="item[0].name"/>
                 {{item[0].name}}
                 </button>
@@ -26,7 +26,7 @@
               <button class="button-icon ion-information-circled custom-icon"  ng-click="openPopover($event,'app.html',item[1].description, item[1].logo, item[1].linkWeb, item[1].linkAndroid, item[1].linkIOS, item[1].name)"
               ng-if="item[1].name"></button>
                <div class="content">
-                <button class="button button-light" ng-if="item[1].name">
+                <button class="button button-light" ng-if="item[1].name" ng-click="openLink(item[0].linkWeb)">
                 <img class="img" data-ng-src="data:image/png;base64,{{item[1].logo}}" ng-if="item[1].name"/>
                 {{item[1].name}}
                 </button>

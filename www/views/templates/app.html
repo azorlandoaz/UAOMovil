@@ -1,4 +1,4 @@
-  <style>.popover { height:80%; width:95%; top:1px; position:fixed;}</style>
+  <style>.popover { height:85%; width:90%;left: 30%; top: 20%}</style>
   <ion-popover-view class="animated fadeInLeft">
     <ion-header-bar>
       <h1 class="title">{{passing.nombre}}</h1>
@@ -17,9 +17,9 @@
  <h4>Descargalo en:</h4>
 
   <a href="{{passing.linkW}}">{{passing.linkW}}</a>
-<img class="img.fit" src="../img/android.png" width="45%" height="auto">  </img>
+<img class="img.fit" src="../img/android.png" width="45%" height="auto" ng-if="passing.linkA">  </img>
 <img width="7%" />
-<img class="img.fit" src="../img/mac_os.png" width="45%" height="auto" ></img>
+<img class="img.fit" src="../img/mac_os.png" width="45%" height="auto" ng-if="passing.linkI"></img>
 
     </ion-content>
   </ion-popover-view>

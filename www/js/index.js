@@ -1,6 +1,6 @@
  var control = angular.module('ionicApp', ['ionic']);
 
-/*control.config(function($stateProvider, $urlRouterProvider, $ionicConfigProvider) {
+/*control.config(function($stateProvider, $URLAppsRouterProvider, $ionicConfigProvider) {
  // $ionicConfigProvider.tabs.position('bottom');
   
 });*/
@@ -15,29 +15,27 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   
   $scope.platform = ionic.Platform;
   $scope.groups = [];
-  $scope.columnBreak = 2;
-  var ip = "52.39.250.182";
+  $scope.news = [];
+  var ip = "35.163.58.169";
   var port = 8181;
-  var URL = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
+  var URLApps = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
+  var URLNews = "http://louaodelasemana.uao.edu.co/wp-json/wp/v2/posts";
 
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
       name: "",
-      items: [[],[],[],[]]
+      items: [[],[],[],[],[]]
     };
     $scope.groups[1] = {
       name: "",
       items: [[],[],[],[]]
     };
-    /*for (var j=0; j<3; j++) {
-      $scope.groups[i].items.push(i + "-" + j);
-    }*/
   };
 
   $scope.groups[0].name = "Apps Moviles";
   $scope.groups[1].name = "Apps Web";
   //var i = 0;
-  $http.get(URL).then(function(resp){
+  $http.get(URLApps).then(function(resp){
 		//console.log('Success', resp);
     var type = " ";
     var j = 0;
@@ -75,7 +73,15 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
     
 	}, function(err){
 		console.error('ERR', err);
-	})
+	});
+
+  $http.get(URLNews).then(function(resp){
+    $scope.news = resp.data;
+    console.log($scope.news);
+    console.log($scope.news[0]._links['wp:attachment'][0].href);
+  }, function(err){
+    console.error('ERR', err);
+  });
   
   $scope.$on("$ionicView.loaded", function(event, data){
     console.log("State Params:");
@@ -143,7 +149,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
                                  'linkA':linkAndroid,
                                  'linkI':linkIOS,
                                  'nombre':name};
-                $scope.popover.show($event);
+                $scope.popover.show(".all");
                 
             });
         };
@@ -155,5 +161,16 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
       $scope.startNewRow = function (index, count) {
          return ((index) % count) === 0;
       };
+
+      $scope.openLink = function(link){
+        window.open(link, '_system');
+      };
     
 });
+
+control.filter("trust", ['$sce', function($sce) {
+  return function(htmlCode){
+    return $sce.trustAsHtml(htmlCode);
+  }
+}]);
+

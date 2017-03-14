@@ -1,13 +1,13 @@
    
 <ion-content on-swipe-right="goBack()" on-swipe-left="goForward()" class="animated fadeIn">
  
-<div class="list card">
+<div class="list card" ng-repeat="new in news">
 
-  <div class="item item-body">
-    <img class="full-image" src="../img/campus_sostenible.jpg">
-    <h2>Campus Sostenible</h2>
-    <p>
-    El proyecto de Campus Sostenible ha sido reconocido con el premio al Medio Ambiente de Caracol Televisión 2016 y el premio Andesco a la Eficiencia Energética 2015.
+  <div class="item-body">
+    <!--<img class="full-image" ng-src="{{new._links['wp:attachment'][0].href}}">-->
+    <h2>{{new.title.rendered}}</h2>
+    <p ng-bind-html="new.content.rendered | trust">
+    
     </p>
     <p>
       <a href="new.html" class="subdued assertive">Ver mas</a>
@@ -17,7 +17,7 @@
 
 </div>
 
-
+<!--
 <div class="list card">
 
 <div class="item item-body">
@@ -34,5 +34,5 @@ Para dar continuidad a las actividades de Cátedra de Paz, la facultad de Humani
 </p>
 </div>
 
-</div>
+</div>-->
 </ion-content>
