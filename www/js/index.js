@@ -34,17 +34,57 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 
   $scope.groups[0].name = "Apps Moviles";
   $scope.groups[1].name = "Apps Web";
-  //var i = 0;
-  $http.get(URLApps).then(function(resp){
-		//console.log('Success', resp);
-    var type = " ";
+
+    
+      
+  $scope.loadNews = function(){
+    $http.get(URLNews).then(function(resp){
+      $ionicLoading.show({
+      template: 'Cargando aplicaciones ...',
+      duration : 1000
+    });
+    $scope.news = resp.data;
+  }, function(err){
+    $ionicLoading.show({
+      template: 'error en la red, intentando nuevamente ...',
+      duration : 3000
+    });
+    $scope.loadNews();
+    console.error('ERR', err);
+  });
+  };
+  
+  $scope.initApps = function(){
+    $http.get(URLApps).then(function(resp){
+        $scope.loadApps(resp);
+        
+	}, function(err){
+		console.error('ERR', err);
+    $ionicLoading.show({
+      template: 'error en la red, intentando nuevamente ...',
+      duration : 3000
+    });
+    $scope.initApps();
+	});
+  
+};
+
+$scope.initApps();
+$scope.loadNews();
+
+  $scope.loadApps = function(resp){
+    $ionicLoading.show({
+      template: 'Cargando aplicaciones ...',
+      duration : 1000
+    });
+        var type = " ";
     var j = 0;
     var l = 0;
     var k = 1;
     var h = 1;
     for(i=0;i<=resp.data.aplications.length;i++){
       
-      console.log($scope.groups[1]);
+      //console.log($scope.groups[1]);
       
       type = resp.data.aplications[i].type;
       if(angular.equals(type,"WEB")){
@@ -54,40 +94,21 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
         if(k>2){
           if(k == 3){j++;console.log(k);}
           $scope.groups[1].items[j].push(resp.data.aplications[i]);
-          if(k%2 == 0){j++;console.log(k);}
+          if(k%2 == 0){j++;/*console.log(k);*/}
         }
         k++;
     }else if(angular.equals(type,"APP")){
        if(h<=2){
           $scope.groups[0].items[l].push(resp.data.aplications[i]);
         }else if(h>2){
-          if(h == 3){l++;console.log(l);}
+          if(h == 3){l++;/*console.log(l);*/}
           $scope.groups[0].items[l].push(resp.data.aplications[i]);
           if(h%2 == 0){l++;}
         }
         h++;
-      }
-      
-    }
-    
-    
-	}, function(err){
-		console.error('ERR', err);
-	});
-
-  $http.get(URLNews).then(function(resp){
-    $scope.news = resp.data;
-    console.log($scope.news);
-    console.log($scope.news[0]._links['wp:attachment'][0].href);
-  }, function(err){
-    console.error('ERR', err);
-  });
-  
-  $scope.$on("$ionicView.loaded", function(event, data){
-    console.log("State Params:");
-   $ionicLoading.show();
-   console.log("State Params: ", data.stateParams);
-});
+      };
+    };
+  };
 
   /*
    * if given group is the selected group, deselect it
