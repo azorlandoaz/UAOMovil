@@ -16,10 +16,10 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   $scope.platform = ionic.Platform;
   $scope.groups = [];
   $scope.news = [];
-  var ip = "35.163.58.169";
-  var port = 8181;
-  var URLApps = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
-  var URLNews = "http://louaodelasemana.uao.edu.co/wp-json/wp/v2/posts";
+  var ip = "35.164.187.232";
+  var port = 8080;
+  var URLApps = "http://35.164.187.232:8080/WebApplication7/service/aplications";
+  var URLNews = "http://sismultimedia.uao.edu.co:8080/WebApplication1/service/services.noticias";
 
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
@@ -76,9 +76,9 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 	});
 
   $http.get(URLNews).then(function(resp){
-    $scope.news = resp.data;
+    $scope.news = resp.data.noticias;
     console.log($scope.news);
-    console.log($scope.news[0]._links['wp:attachment'][0].href);
+    //console.log($scope.news[0]._links['wp:attachment'][0].href);
   }, function(err){
     console.error('ERR', err);
   });
