@@ -16,7 +16,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   $scope.platform = ionic.Platform;
   $scope.groups = [];
   $scope.news = [];
-  var ip = "35.163.58.169";
+  var ip = "35.164.187.232";
   var port = 8181;
   var URLApps = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
   var URLNews = "http://louaodelasemana.uao.edu.co/wp-json/wp/v2/posts";
@@ -144,7 +144,9 @@ $scope.loadNews();
    $scope.showConfirm = function() {
      var confirmPopup = $ionicPopup.confirm({
        title: 'Cerrar sesión',
-       template: '¿Estas seguro que desea cerrar sesión?'
+       template: '¿Estas seguro que desea cerrar sesión?',
+       cancelText: 'Cancelar',
+        okText: 'Si'
      });
      confirmPopup.then(function(res) {
        if(res) {

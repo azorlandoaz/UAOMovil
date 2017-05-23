@@ -14,7 +14,9 @@
 
  <p> {{passing.desc}}  </p>
 
- <h4>Descargalo en:</h4>
+ <h4 ng-if="passing.linkA">Descargalo en:</h4>
+ <h4 ng-if="passing.linkI">Descargalo en:</h4>
+ <h4 ng-if="passing.linkW">Vinculo:</h4>
 
   <a href="{{passing.linkW}}">{{passing.linkW}}</a>
 <img class="img.fit" src="../img/android.png" width="45%" height="auto" ng-if="passing.linkA">  </img>
