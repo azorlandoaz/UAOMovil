@@ -32,7 +32,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
     };
   };
 
-  $scope.groups[0].name = "Apps Moviles";
+  $scope.groups[0].name = "Apps Móviles";
   $scope.groups[1].name = "Apps Web";
 
     
@@ -144,9 +144,9 @@ $scope.loadNews();
    $scope.showConfirm = function() {
      var confirmPopup = $ionicPopup.confirm({
        title: 'Cerrar sesión',
-       template: '¿Estas seguro que desea cerrar sesión?',
+       template: '¿Seguro que desea cerrar sesión?',
        cancelText: 'Cancelar',
-        okText: 'Si'
+        okText: 'Sí'
      });
      confirmPopup.then(function(res) {
        if(res) {
