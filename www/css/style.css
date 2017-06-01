@@ -109,3 +109,14 @@
   background-color: #ef473a;
 }
 
+iframe{
+  position: relative;
+  height: auto;
+  width: auto;
+}
+
+.size-full{
+  position: relative;
+  height: auto;
+  width: auto;
+}

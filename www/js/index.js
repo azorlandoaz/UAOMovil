@@ -16,7 +16,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   $scope.platform = ionic.Platform;
   $scope.groups = [];
   $scope.news = [];
-  var ip = "35.164.187.232";
+  var ip = "54.148.141.5";
   var port = 8181;
   var URLApps = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
   var URLNews = "http://louaodelasemana.uao.edu.co/wp-json/wp/v2/posts";
