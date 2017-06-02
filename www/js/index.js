@@ -76,7 +76,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
 	});
 
   $http.get(URLNews).then(function(resp){
-    $scope.news = resp.data.noticias;
+    $scope.news = resp.data;
     console.log($scope.news);
     //console.log($scope.news[0]._links['wp:attachment'][0].href);
   }, function(err){

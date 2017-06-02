@@ -5,11 +5,12 @@
 
   <div class="item-body">
     <!--<img class="full-image" ng-src="{{new.imagen}}">-->
-    <h2>{{new.titulo}}</h2>
-    <p ng-bind-html="new.descripcion | trust">
+    <h2>{{new.title.rendered}}</h2>
+    <p ng-bind-html="new.content.rendered | trust">
     
     </p>
-
+    <p>Link:</p>
+    <a>{{new.link}}</a>
   </div>
 
 </div>
