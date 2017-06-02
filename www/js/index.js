@@ -16,10 +16,10 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
   $scope.platform = ionic.Platform;
   $scope.groups = [];
   $scope.news = [];
-  var ip = "35.164.187.232";
-  var port = 8080;
-  var URLApps = "http://35.164.187.232:8080/WebApplication7/service/aplications";
-  var URLNews = "http://sismultimedia.uao.edu.co:8080/WebApplication1/service/services.noticias";
+  var ip = "54.148.141.5";
+  var port = 8181;
+  var URLApps = "https://"+ip+":"+port+"/WebApplication7/service/aplications";
+  var URLNews = "http://louaodelasemana.uao.edu.co/wp-json/wp/v2/posts";
 
   for (var i=0; i<2; i++) {
     $scope.groups[0] = {
@@ -32,7 +32,7 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
     };
   };
 
-  $scope.groups[0].name = "Apps Moviles";
+  $scope.groups[0].name = "Apps Móviles";
   $scope.groups[1].name = "Apps Web";
   //var i = 0;
   $http.get(URLApps).then(function(resp){
@@ -123,7 +123,9 @@ control.controller('apps', function($scope, $ionicTabsDelegate, $ionicPopup, $io
    $scope.showConfirm = function() {
      var confirmPopup = $ionicPopup.confirm({
        title: 'Cerrar sesión',
-       template: '¿Estas seguro que desea cerrar sesión?'
+       template: '¿Seguro que desea cerrar sesión?',
+       cancelText: 'Cancelar',
+        okText: 'Sí'
      });
      confirmPopup.then(function(res) {
        if(res) {
